@@ -1,7 +1,16 @@
 aid: mech-mind
-name: mech-mind
-description: mech-mind is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Mech-Mind Robotics
+description: >-
+  Mech-Mind Robotics provides industrial 3D cameras (the Mech-Eye industrial 3D
+  camera and laser profiler line) together with software suites — Mech-Vision
+  machine-vision software, Mech-Viz robot-programming software, and the Mech-DLK
+  deep-learning toolkit — that give industrial robots embodied AI and 3D vision.
+  Typical applications include bin picking, depalletizing, machine tending,
+  piece picking, and item picking; the company reports 3000+ deployed
+  applications for 1000+ clients worldwide. The developer surface is the
+  Mech-Eye SDK (a C++ core with Python and C# bindings), ROS and ROS2 interfaces,
+  and the Mech-DLK SDK, all published under the MechMindRobotics GitHub
+  organization; there is no public REST/HTTP API.
 url: https://raw.githubusercontent.com/api-evangelist/mech-mind/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,31 @@ x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://www.mech-mind.com/Images/logo.png
 tags:
 - Company
+- Robotics
+- 3D Vision
+- Computer Vision
+- Machine Vision
+- Industrial Automation
+- Embodied AI
+- Bin Picking
+- SDK
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +51,33 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://mech-mind.net
+  url: https://www.mech-mind.com
+- type: DeveloperPortal
+  url: https://docs.mech-mind.net/en/home/latest/index.html
+- type: Documentation
+  url: https://docs.mech-mind.net/en/home/latest/index.html
+- type: GettingStarted
+  url: https://docs.mech-mind.net/en/eye-3d-camera/latest/getting-started/index.html
+- type: GitHubOrganization
+  url: https://github.com/MechMindRobotics
+- type: Blog
+  url: https://www.mech-mind.com/blog.html
+- type: Support
+  url: https://community.mech-mind.com/
+- type: ChangeLog
+  url: https://docs.mech-mind.net/en/eye-3d-camera/latest/getting-started/release-notes.html
+- type: Download
+  url: https://downloads.mech-mind.com/?tab=tab-sdk
+- type: Packages
+  url: packages/mech-mind-packages.yml
+- type: SDKs
+  url: packages/mech-mind-packages.yml
+- type: LLMsTxt
+  url: llms/mech-mind-llms.txt
+- type: DomainSecurity
+  url: security/mech-mind-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
