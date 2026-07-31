@@ -1,0 +1,70 @@
+generated: '2026-07-20'
+method: searched
+source: https://pypi.org/project/MechEyeAPI/ + https://github.com/MechMindRobotics
+description: >-
+  First-party client libraries for the Mech-Eye 3D Camera / Laser Profiler SDK
+  (Mech-Eye API) and the Mech-DLK deep-learning SDK. Mech-Mind ships no public
+  REST API; the developer surface is the Mech-Eye SDK (a C++ core with Python
+  and C# bindings) plus ROS/ROS2 interfaces, distributed as an installer from
+  downloads.mech-mind.com and mirrored as open-source repositories under the
+  MechMindRobotics GitHub organization.
+packages:
+  - language: python
+    registry: pypi
+    name: MechEyeAPI
+    url: https://pypi.org/project/MechEyeAPI/
+    install: pip install MechEyeAPI
+    version: 2.6.0
+    official: true
+    description: Mech-Eye Industrial 3D Camera API (Python binding)
+  - language: cpp
+    registry: github
+    name: mecheye_cpp_interface
+    url: https://github.com/MechMindRobotics/mecheye_cpp_interface-archived
+    official: true
+    description: Official C++ interface for Mech-Eye cameras (superseded by the Mech-Eye SDK installer)
+  - language: csharp
+    registry: github
+    name: mecheye_csharp_interface
+    url: https://github.com/MechMindRobotics/mecheye_csharp_interface-archived
+    official: true
+    description: Official C# interface for Mech-Eye cameras
+  - language: cpp
+    registry: github
+    name: mecheye_ros_interface
+    url: https://github.com/MechMindRobotics/mecheye_ros_interface
+    official: true
+    description: Official ROS interface for Mech-Eye cameras
+  - language: cpp
+    registry: github
+    name: mecheye_ros2_interface
+    url: https://github.com/MechMindRobotics/mecheye_ros2_interface
+    official: true
+    description: Official ROS2 interface for Mech-Eye cameras
+  - language: cpp
+    registry: github
+    name: mecheye_profiler_ros2_interface
+    url: https://github.com/MechMindRobotics/mecheye_profiler_ros2_interface
+    official: true
+    description: ROS2 interface for Mech-Eye Laser Profilers
+  - language: c
+    registry: github
+    name: mechdlk_sdk
+    url: https://github.com/MechMindRobotics/mechdlk_sdk
+    official: true
+    description: Mech-DLK SDK — software development kit for the Mech-DLK deep-learning software
+distributions:
+  - name: Mech-Eye SDK (installer)
+    url: https://downloads.mech-mind.com/?tab=tab-sdk
+    official: true
+    note: C++ core SDK with Python and C# bindings; primary distribution channel
+  - name: Mech-DLK (installer)
+    url: https://downloads.mech-mind.com/?tab=tab-dlk
+    official: true
+samples:
+  - MechMindRobotics/mecheye_python_samples
+  - MechMindRobotics/mecheye_cpp_samples
+  - MechMindRobotics/mecheye_csharp_samples
+  - MechMindRobotics/mecheye_halcon_samples
+  - MechMindRobotics/mecheye_labview_samples
+  - MechMindRobotics/mecheye_visionpro_samples

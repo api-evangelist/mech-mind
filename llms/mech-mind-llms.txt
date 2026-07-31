@@ -1,0 +1,32 @@
+# Mech-Mind Robotics
+
+> Mech-Mind Robotics provides 3D cameras (Mech-Eye industrial 3D cameras and laser profilers) and software suites (Mech-Vision, Mech-Viz, Mech-DLK) that give industrial robots embodied AI and 3D vision. Typical applications include bin picking, depalletizing, machine tending, piece picking, and item picking, with 3000+ deployed applications for 1000+ clients worldwide. The developer surface is the Mech-Eye SDK (a C++ core with Python and C# bindings) plus ROS/ROS2 interfaces and the Mech-DLK SDK — there is no public REST/HTTP API.
+
+## Company
+- Website: https://www.mech-mind.com/
+- Blog: https://www.mech-mind.com/blog.html
+- News: https://www.mech-mind.com/news/news.html
+- Community forum: https://community.mech-mind.com/
+- Contact: https://www.mech-mind.com/contact/contact-us.html
+
+## Developer / Documentation
+- Documentation portal: https://docs.mech-mind.net/en/home/latest/index.html
+- Mech-Eye 3D Camera getting started: https://docs.mech-mind.net/en/eye-3d-camera/latest/getting-started/index.html
+- Mech-Eye 3D Laser Profiler: https://docs.mech-mind.net/en/eye-3d-profiler/latest/getting-started/index.html
+- Mech-Vision & Mech-Viz software manual: https://docs.mech-mind.net/en/suite-software-manual/latest/vision-quick-facts/vision.html
+- Mech-DLK deep-learning software: https://docs.mech-mind.net/en/dlk-software-manual/latest/index.html
+- Mech-DLK SDK manual: https://docs.mech-mind.net/en/dlk-sdk-manual/latest/index.html
+- Software / SDK downloads: https://downloads.mech-mind.com/?tab=tab-sdk
+
+## SDKs / Packages
+- Python (Mech-Eye API): https://pypi.org/project/MechEyeAPI/  (pip install MechEyeAPI)
+- GitHub organization: https://github.com/MechMindRobotics
+- C++ interface: https://github.com/MechMindRobotics/mecheye_cpp_interface-archived
+- C# interface: https://github.com/MechMindRobotics/mecheye_csharp_interface-archived
+- ROS interface: https://github.com/MechMindRobotics/mecheye_ros_interface
+- ROS2 interface: https://github.com/MechMindRobotics/mecheye_ros2_interface
+- Mech-DLK SDK: https://github.com/MechMindRobotics/mechdlk_sdk
+
+## Tools
+- Camera selector: https://resources.mech-mind.com/camera_selector/index.html?language=en
+- Field-of-view calculator: https://resources.mech-mind.com/fov_calculator/
