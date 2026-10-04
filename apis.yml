@@ -48,7 +48,7 @@ tags:
 - Company
 - Robotics
 - 3D Vision
-- Computer-Vision
+- Computer Vision
 - Machine Vision
 - Industrial Automation
 - Embodied AI
@@ -64,6 +64,7 @@ tags_raw:
 - Embodied AI
 - Bin Picking
 - SDK
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
